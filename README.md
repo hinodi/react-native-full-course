@@ -15,6 +15,7 @@
 * Kinh nghiệm 3 năm làm việc chuyên nghiệp với React Native
 * Đã từng làm app có hơn 2.000.000 (2 triệu) người dùng
 * Senior React Native Engineer tại Foody Corp - Sea Group
+* Background vững thuật toán: giải 3 kỳ thi ACM/API toàn miền Nam, giải 3 kỳ thi HSG Quốc Gia môn Tin Học
 
 ## Nội dung khoá học
 <!--- Section 1-->
