@@ -56,7 +56,14 @@
 </details>
 <!--- Section 5-->
 <details>
-<summary>5. NPM, Native Modules, Animation</summary>
+<summary>5. Navigation</summary>
+
+* react-navigation
+
+</details>
+<!--- Section 6-->
+<details>
+<summary>6. NPM, Native Modules, Animation</summary>
 
 * NPM
   * Library
