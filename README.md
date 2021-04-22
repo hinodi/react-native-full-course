@@ -17,6 +17,14 @@
 * Senior React Native Engineer tại Foody Corp - Sea Group
 * Background vững thuật toán: giải 3 kỳ thi ACM/API toàn miền Nam, giải 3 kỳ thi HSG Quốc Gia môn Tin Học
 
+## Điểm khác biệt của khóa học
+
+* Giảng viên có nhiều kinh nghiệm làm việc trong các dự án thực tế, với số lượng user lớn
+* Giảng viên làm việc trong nhiều môi trường, từng trải qua nhiều dạng app khác nhau: với kinh nghiệm đa dạng trong nhiều lĩnh vực
+	* App mạng xã hội
+	* App Ecommerce
+	* App chat real-time
+
 ## Nội dung khoá học
 <!--- Section 1-->
 <details>
@@ -31,130 +39,159 @@
 	* Environment setup
 
 </details>
+
 <!--- Section 2-->
 <details>
-<summary>2. React Native Basic</summary>
+<summary>2. React Native Cơ bản</summary>
 
-* Component
+* Tìm hiểu về Component
 	* Props
 	* State
 	* LifeCycle
-* React Native Component
+* Tìm hiểu các React Native Component
 	* Core Component
 	* Native Component
-* Simple Game App
 
 </details>
 
 <!--- Section 3-->
 <details>
-<summary>3. Simple Game App</summary>
+<summary>3. Style và Thực hành React Native cơ bản</summary>
 
-* Memory game
-* Match game
+* Style
+  	* StyleSheet
+  	* Flexbox
+  	* Responsive
+* Hưởng dẫn sử dụng các Core Component
+	* View, Text, Button
+	* TextInput
+	* ScrollView, FlastList
+* Hướng dẫn dựng các layout cơ bản, responsive
+	* Dựng layout tương thích trên nhiều loại màn hình khác nhau
 
 </details>
+
 <!--- Section 4-->
 <details>
-<summary>4. Networking, Style</summary>
+<summary>4. Simple Game App</summary>
 
-* Networking
-  * API
-  * Validattion
-  * Simple SignIn Flow, Local Storage
-* Style
-  * StyleSheet
-  * Flexbox
-  * Responsive
+* Game đơn giản, game thuộc thể loại game trí nhớ
+* Người chơi sẽ tìm các cặp hình ảnh trùng nhau trong các hình ảnh đang bị ẩn
+* Chức năng tính điểm, lưu điểm và bảng xếp hạng
 
 </details>
 <!--- Section 5-->
 <details>
-<summary>5. Navigation</summary>
+<summary>5. Networking</summary>
 
-* react-native-navigation
-* react-navigation
-	* stack
-	* tabs 
+* Hướng dẫn làm việc với API
+* Validate dữ liệu trước khi thực hiện truyền dữ liệu
+* Luồng đăng nhập đơn giản
+* Thực hiện lưu các dữ liệu người dùng vào bộ nhớ local
 
 </details>
 <!--- Section 6-->
 <details>
-<summary>6. Food Delivery App (part 1)</summary>
+<summary>6. Navigation</summary>
 
-* Browsing Page
-* Shop Page
-* Cart Page
+* Cách thức hoạt động của các hệ thống navigation trong react-native
+* Hướng dẫn sử dụng các thư viện navigation
+	* react-native-navigation
+	* react-navigation
+* Tìm hiểu về các loại navigator của react-native-navigation
+	* stack
+	* tabs 
 
 </details>
 <!--- Section 7-->
 <details>
-<summary>7. Redux</summary>
+<summary>7. Ứng dụng Food Delivery (phần 1)</summary>
 
-* Architecture
-* Middleware, Thunk
-* react-redux
-* Redux toolkit
-* redux-persist
+* Trang hiển thị danh sách các sản phẩm / các của hàng
+* Trang hiển thị chi tiết một cửa hàng
+* Chức năng giỏ hàng, đặt các sản phẩm vào giỏ hàng
+* Di chuyển giữa các trang
 
 </details>
 <!--- Section 8-->
 <details>
-<summary>8. Debugging</summary>
+<summary>8. Redux</summary>
 
-* console
-* react-devtools
-* reactotron
+* Redux là gì? Tại sao phải sử dụng redux
+* Kiến trúc của redux
+* Middleware là gì, và các Middleware phổ biến trong redux
+	* thunk
+	* saga
+	* redux-persist
+* react-redux
+* redux toolkit
 
 </details>
-
 <!--- Section 9-->
 <details>
-<summary>9. Food Delivery App (part 2)</summary>
+<summary>9. Debugging</summary>
 
-* Refactor current App with Redux
-* SignIn Flow
-* Submit Order
+* Hướng dẫn debug react-native bằng các công cụ
+	* console
+	* react-devtools
+	* reactotron
+* Ưu nhược/điểm của từng công cụ
 
 </details>
+
 <!--- Section 10-->
 <details>
-<summary>10. NPM, Native Modules</summary>
+<summary>10. Ứng dụng Food Delivery (phần 2)</summary>
 
-* NPM
-  * Library
-  * node_modules 
-* Native Modules
+* Cải tiến và giải quyết các vấn đề của app bằng redux
+* Thực hiện xây dựng luồng đăng nhập đơn giản
+* Thực hiện đặt hàng thông qua gọi API
 
 </details>
 <!--- Section 11-->
 <details>
-<summary>11. Food Delivery App (part 3)</summary>
+<summary>11. NPM, Native Modules</summary>
 
-* Integrate Map, Camera
-* Review Flow
+* npm là gì? Tại sao cần phải sử dụng npm
+  	* Library
+  	* node_modules
+  	* yarn
+* Native Modules
+	* cách hoạt động
+	* xây dựng các native-modules đơn giản
+	* cách sử dụng
 
 </details>
 <!--- Section 12-->
 <details>
-<summary>12. Notification</summary>
+<summary>12. Ứng dụng Food Delivery (phần 3)</summary>
 
-* Notification
-	* Remote notificaiton
-	* Local notification
-* Integrate into Food Delivery App
+* Trang danh sách các đơn hàng
+	* Có sử dụng bản đồ để thể hiện đơn hàng đang được giao
+* Trang thông báo
+* Trang thông tin cá nhân của người dùng
+	* Có sử dụng camera để cập nhật ảnh đại diện / review các sản phẩm 
 
 </details>
 <!--- Section 13-->
 <details>
-<summary>13. Publish app</summary>
+<summary>13. Notification</summary>
 
-* Pre-configuation
-	* Configuring Icons & The Splash Screen
-	* Codepush
+* Notification
+	* Remote notificaiton
+	* Local notification
+* Cài đặt thông báo cho Ứng dụng Food Delivery
+
+</details>
+<!--- Section 14-->
+<details>
+<summary>14. Publish app</summary>
+
+* Chuẩn bị
+	* Cài đặt Icons & màn hình chào mừng (Splash Screen)
+	* Giới thiệu, Cài đặt Codepush
 * Publish
 	* iOS
 	* Android
-	* Expo
 
 </details>
