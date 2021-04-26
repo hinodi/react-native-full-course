@@ -28,15 +28,15 @@
 ## Nội dung khoá học
 <!--- Section 1-->
 <details>
-<summary>1. JavaScript Basic & React Native Introduction</summary>
+<summary>1. JavaScript Cơ bản & Giới thiệu React Native</summary>
 
-* JavaScript Basic
-	* ES6: Variable, Type, Object, Module, Prototype
-	* Asynchronous: Single Thread, Promises, Async/Await
+* JavaScript Cơ bản
+	* Cú pháp JavaScript hiện đại: ES6, Biến, Kiểu dữ liệu, Module, Prototype
+	* Cơ chế bất đồng bộ của Javascript: Đơn luồng, Promises, Async/Await
 	* ESLint, Prettier
-* React Native Introduction
-	* Architecture: Bridge, Native Thread
-	* Environment setup
+* Giới thiệu React Native
+	* Kiến trúc React Native, cách thức React Native hoạt động và giao tiếp với Android/iOS
+	* Thiết lập môi trường để lập trình với React Native
 
 </details>
 
