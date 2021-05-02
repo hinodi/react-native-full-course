@@ -24,6 +24,9 @@
 	* App mạng xã hội
 	* App Ecommerce
 	* App chat real-time
+* context api vs redux
+* optimize app performance
+* split/re-use component best practice
 
 ## Nội dung khoá học
 <!--- Section 1-->
@@ -44,13 +47,14 @@
 <details>
 <summary>2. React Native Cơ bản</summary>
 
-* Tìm hiểu về Component
-	* Props
-	* State
-	* LifeCycle
+* Tìm hiểu về Component, thành phần cơ bản nhất trong React Native
+	* Component là gì?
+	* Cơ chế hoạt động
+	* Cách tạo ra các component trong React Native
 * Tìm hiểu các React Native Component
 	* Core Component
 	* Native Component
+* Phân tích các component từ thiết kế có sẵn
 
 </details>
 
@@ -59,13 +63,14 @@
 <summary>3. Style và Thực hành React Native cơ bản</summary>
 
 * Style
-  	* StyleSheet
-  	* Flexbox
-  	* Responsive
-* Hưởng dẫn sử dụng các Core Component
+  	* Cách trang trí, vẽ, sắp xếp các bố cục ứng dụng
+	* Cách Thiết kế ứng dụng tương thích trên nhiều loại màn hình khác nhau
+	* Phân tích, thiết kế ứng dụng dựa trên design có sẵn
+
+* Hưởng dẫn sử dụng các Core Component để xây dựng các UI cơ bản
 	* View, Text, Button
-	* TextInput
-	* ScrollView, FlastList
+	* TextInput: xây dựng form nhập liệu người dùng
+	* ScrollView, FlastList: xây dựng các danh sách (danh sách sản phẩm/tin nhắn)
 * Hướng dẫn dựng các layout cơ bản, responsive
 	* Dựng layout tương thích trên nhiều loại màn hình khác nhau
 
