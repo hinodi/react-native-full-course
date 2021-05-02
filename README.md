@@ -66,7 +66,6 @@
   	* Cách trang trí, vẽ, sắp xếp các bố cục ứng dụng
 	* Cách Thiết kế ứng dụng tương thích trên nhiều loại màn hình khác nhau
 	* Phân tích, thiết kế ứng dụng dựa trên design có sẵn
-
 * Hưởng dẫn sử dụng các Core Component để xây dựng các UI cơ bản
 	* View, Text, Button
 	* TextInput: xây dựng form nhập liệu người dùng
@@ -134,8 +133,19 @@
 </details>
 <!--- Section 9-->
 <details>
-<summary>9. Debugging</summary>
+<summary>9. Context API vs Redux</summary>
 
+* Context API là gì? Có thay thế được Redux?
+* Cách sử dụng Context API
+* So sánh Context API và Redux
+* Những ứng dụng thực tế trên thị trường sử dụng Context API hay Redux
+
+</details>
+<!--- Section 10-->
+<details>
+<summary>10. Debugging</summary>
+
+* Hướng dẫn cách tìm nơi phát sinh lỗi
 * Hướng dẫn debug react-native bằng các công cụ
 	* console
 	* react-devtools
@@ -144,32 +154,30 @@
 
 </details>
 
-<!--- Section 10-->
+<!--- Section 11-->
 <details>
-<summary>10. Ứng dụng Food Delivery (phần 2)</summary>
+<summary>11. Ứng dụng Food Delivery (phần 2)</summary>
 
 * Cải tiến và giải quyết các vấn đề của app bằng redux
 * Thực hiện xây dựng luồng đăng nhập đơn giản
 * Thực hiện đặt hàng thông qua gọi API
 
 </details>
-<!--- Section 11-->
-<details>
-<summary>11. NPM, Native Modules</summary>
-
-* npm là gì? Tại sao cần phải sử dụng npm
-  	* Library
-  	* node_modules
-  	* yarn
-* Native Modules
-	* cách hoạt động
-	* xây dựng các native-modules đơn giản
-	* cách sử dụng
-
-</details>
 <!--- Section 12-->
 <details>
-<summary>12. Ứng dụng Food Delivery (phần 3)</summary>
+<summary>12. NPM, Native Modules</summary>
+
+* Tại sao cần phải sử dụng thư viện khi làm ứng dụng?
+  	* npm là gì
+  	* npm, node_modules, yarn
+* Phải làm gì khi cần sử lý đến những phần phức tạp, hoặc can thiệp sâu vào hệ thống?
+	* native-modules ios/android
+	* xây dựng/cách sử dụng các native-modules đơn giản
+
+</details>
+<!--- Section 13-->
+<details>
+<summary>13. Ứng dụng Food Delivery (phần 3)</summary>
 
 * Trang danh sách các đơn hàng
 	* Có sử dụng bản đồ để thể hiện đơn hàng đang được giao
@@ -178,25 +186,35 @@
 	* Có sử dụng camera để cập nhật ảnh đại diện / review các sản phẩm 
 
 </details>
-<!--- Section 13-->
+<!--- Section 14-->
 <details>
-<summary>13. Notification</summary>
+<summary>14. Push Notification, Thông báo đẩy</summary>
 
-* Notification
+* Gửi thông báo từ ứng dụng đến người dùng khi người dùng đang/không dùng ứng dụng
 	* Remote notificaiton
 	* Local notification
 * Cài đặt thông báo cho Ứng dụng Food Delivery
 
 </details>
-<!--- Section 14-->
+<!--- Section 15-->
 <details>
-<summary>14. Publish app</summary>
+<summary>15. Cải thiện hiệu năng ứng dụng</summary>
+
+* Các sai lầm thường hay mắc phải, dẫn đến hiệu năng ứng dụng thấp
+* Cách tìm ra những điểm trên ứng dụng đang có hiệu năng thấp
+* Cách đánh giá hiệu năng ứng dụng 
+* Cách cải thiện hiệu năng ứng dụng
+
+</details>
+<!--- Section 16-->
+<details>
+<summary>16. Publish app</summary>
 
 * Chuẩn bị
 	* Cài đặt Icons & màn hình chào mừng (Splash Screen)
 	* Giới thiệu, Cài đặt Codepush
-* Publish
-	* iOS
-	* Android
+* Publish app lên các store, cho người dùng có thể tải về
+	* iOS: apple store
+	* Android: google store
 
 </details>
