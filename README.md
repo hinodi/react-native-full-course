@@ -77,7 +77,7 @@
 
 <!--- Section 4-->
 <details>
-<summary>4. Simple Game App</summary>
+<summary>4. App Game Trúc Xanh</summary>
 
 * Game đơn giản, game thuộc thể loại game trí nhớ
 * Người chơi sẽ tìm các cặp hình ảnh trùng nhau trong các hình ảnh đang bị ẩn
