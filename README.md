@@ -82,6 +82,7 @@
 * Game đơn giản, game thuộc thể loại game trí nhớ
 * Người chơi sẽ tìm các cặp hình ảnh trùng nhau trong các hình ảnh đang bị ẩn
 * Chức năng tính điểm, lưu điểm và bảng xếp hạng
+![game](https://user-images.githubusercontent.com/26211549/117603770-13bbc300-b17e-11eb-8839-3624e6d89b06.gif)
 
 </details>
 <!--- Section 5-->
